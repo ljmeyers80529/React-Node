@@ -1,6 +1,6 @@
-#React-Node initial submission.
+# React-Node initial submission.
 
-####This project is from an Udemy React js / node js course.
+#### This project is from an Udemy React js / node js course.
 
 Libraries used:
 
@@ -9,6 +9,8 @@ Libraries used:
 Installation                                                                Document location.
 
 npm install express --save                                                  http://expressjs.com/
+npm install passport --save                                                 http://www.passportjs.org/
+npm install passport-google-oauth20                                         google authentication strategy.
 
 
 

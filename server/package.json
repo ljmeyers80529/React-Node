@@ -1,0 +1,22 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "export NODE_ENV=development || SET \"NODE_ENV=development\" && node server/index.js",
+        "test": "export NODE_ENV=test || SET \"NODE_ENV=test\" && mocha server/**/*.test.js --timeout=45000",
+        "test-watch": "nodemon --exec \"npm test -- --timeout=45000\"",
+        "dev": "nodemon server/index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.3",
+        "passport": "^0.4.0",
+        "passport-google-oauth20": "^1.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.17.5"
+    }
+}
