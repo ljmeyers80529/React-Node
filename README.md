@@ -16,4 +16,12 @@ npm install mongoose --save                                                 http
 npm install cookie-session --save                                           https://www.npmjs.com/package/cookie-session
 
 
+
 ## Modules / libraries development dependencies:
+
+
+## creating an react app:
+npm install -g create-react-app                       (install globally)    https://github.com/facebook/create-react-app
+
+Within the main directory: ** create-react-app client ** to create the project. 
+
