@@ -7,11 +7,14 @@
         "start": "export NODE_ENV=development || SET \"NODE_ENV=development\" && node server/index.js",
         "test": "export NODE_ENV=test || SET \"NODE_ENV=test\" && mocha server/**/*.test.js --timeout=45000",
         "test-watch": "nodemon --exec \"npm test -- --timeout=45000\"",
-        "dev": "nodemon server/index.js"
+        "server": "nodemon server/index.js",
+        "client": "npm run start --prefix client",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "concurrently": "^3.6.0",
         "cookie-session": "^2.0.0-beta.3",
         "express": "^4.16.3",
         "mongodb": "^3.0.10",

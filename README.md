@@ -14,6 +14,7 @@ npm install passport-google-oauth20 --save            google authentication stra
 npm install mongodb --save                                                  https://github.com/mongodb/node-mongodb-native
 npm install mongoose --save                                                 https://http://mongoosejs.com/
 npm install cookie-session --save                                           https://www.npmjs.com/package/cookie-session
+npm install concurrently --save
 
 
 
