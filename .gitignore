@@ -1,3 +1,5 @@
 server/node_modules
 config
-server/database
+server???/database
+server???/config/keys.js
+
