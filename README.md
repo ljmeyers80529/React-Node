@@ -6,7 +6,7 @@ Libraries used:
 
 ## Modules / Libraries dependencies:
 
-Installation (Node.js)                                                                Document location.
+Installation Server side (Node.js)                                                                Document location.
 
 * npm install express --save                                                  http://expressjs.com/
 * npm install passport --save                                                 http://www.passportjs.org/
@@ -24,8 +24,9 @@ Installation (Node.js)                                                          
 
 ## creating an react app:
 * npm install -g create-react-app                       (install globally)    https://github.com/facebook/create-react-app
+* npm install --save redux react-redux react-router-dom
 
-Installation (React.js)
+Installation Client side (React.js)
 
 * Within the main directory: ** create-react-app client ** to create the project. 
 
